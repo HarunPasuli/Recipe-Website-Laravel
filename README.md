@@ -19,11 +19,12 @@ This project is a Recipe Website made with Laravel where users can upload recipe
 ## To install this laravel project 
 1. Clone the project
 2. cd into Recipe-Website-Laravel
-3. run `php artisan serve`
-4. run `npm run dev` in a different terminal
-5. run the commands `php artisan db:seed --class=CategorySeeder` and `php artisan db:seed --class=DayOfWeekSeeder` . These are used for the submit recipe form.
-6. You must have composer installed + xammp , if you run into any issues do the following:
-7. `composer install` and `npm install` After that the project should be up an running!
+3. run `php artisan migrate`
+4. run `php artisan serve`
+5. run `npm run dev` in a different terminal
+6. run the commands `php artisan db:seed --class=CategorySeeder` and `php artisan db:seed --class=DayOfWeekSeeder` . These are used for the submit recipe form.
+7. You must have composer installed + xammp , if you run into any issues do the following:
+8. `composer install` and `npm install` After that the project should be up an running!
 
 ## How to tweak this project for your own uses
 Since this is a personal project that was made to improve my Laravel knowledge, I'd encourage you to clone and rename this project for your own purposes.
