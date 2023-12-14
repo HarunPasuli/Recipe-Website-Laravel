@@ -1,2 +1,6 @@
-# Recipe-Website-Laravel
-Recipe Website made with Laravel includes CRUD, Image Upload, PDF, Pagination, Tags, Filtering System and much more!
+# RecipeWebsite
+
+Recipe website made with Laravel
+Before using use these 2 seeders:
+php artisan db:seed --class=CategorySeeder
+php artisan db:seed --class=DayOfWeekSeeder
