@@ -1,6 +1,29 @@
 # RecipeWebsite
 
-Recipe website made with Laravel
-Before using use these 2 seeders:
-php artisan db:seed --class=CategorySeeder
-php artisan db:seed --class=DayOfWeekSeeder
+## A fully functional Recipe Website written in Laravel
+
+This project is a Recipe Website made with Laravel where users can upload recipes, view them, review and comment on them! Each recipe has it's own tags can have custom tags e.g. "Beef" , "Salad" , "Healthy" , etc., users can filter through these tags and find out other recipes which have the same tags. List of features:
+
+# CRUD
+# Review and Comment system
+# Favourite Recipes
+# PDF so you can download a recipe
+# Nutritional Facts (which are set by the author)
+# Recipe Collections
+# Meal Plans
+# Laravel Breeze Authentication
+# Tags 
+# Categories 
+# Contact Form
+
+## To install this laravel project 
+1. Clone the project
+2. cd into Recipe-Website-Laravel
+3. run `php artisan serve`
+4. run `npm run dev` in a different terminal
+5. You must have composer installed + xammp , if you run into any issues do the following:
+6. `composer install` and `npm install` After that the project should be up an running!
+
+## How to tweak this project for your own uses
+Since this is a personal project that was made to improve my Laravel knowledge, I'd encourage you to clone and rename this project for your own purposes.
+
