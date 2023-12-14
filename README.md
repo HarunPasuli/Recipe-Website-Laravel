@@ -15,6 +15,7 @@ This project is a Recipe Website made with Laravel where users can upload recipe
 # Tags 
 # Categories 
 # Contact Form
+# Carousel for recipe images which can be uploaded by users
 
 ## To install this laravel project 
 1. Clone the project
