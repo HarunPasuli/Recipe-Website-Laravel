@@ -19,7 +19,7 @@ This project is a Recipe Website made with Laravel where users can upload recipe
 
 ## To install this laravel project 
 1. Clone the project
-2. cd into Recipe-Website-Laravel
+2. Place project in xampp htdocs
 3. run `php artisan migrate`
 4. run `php artisan serve`
 5. run `npm run dev` in a different terminal
